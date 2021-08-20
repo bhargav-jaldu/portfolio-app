@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <h3 class="logo"><a href="#">Portfolio</a></h3>
+            <button class="burger-btn"><i class="fas fa-hamburger"></i></button>
+            <ul class="nav-ul">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#pro-con">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+        </nav>
+
+        <div class="about">
+            <header id="about">
+                <h1>About Me!</h1>
+                <p>
+                    Hi there ! I am a sophomer pursuing a major in Computer science and
+                    Engineering from VIT-AP University 🎓 and I am a web developer by
+                    passion and my major interest lies in Data structures and
+                    algorithms. I love to explore new technologies that are evolving day
+                    by day in the industry.
+                </p>
+                <a href="">RESUME</a>
+            </header>
+        </div>
+
+        <!-- skills -->
+        <div id="skills">
+            <h1>My Skills</h1>
+            <p class="line"></p>
+            <div class="skill-c">
+                <img src="images/java.jpg" alt="" />
+                <img src="images/html.jpg" alt="" />
+                <img src="images/css.jpg" alt="" />
+                <img src="images/javascirpt.jpg" alt="" />
+                <img src="images/ph.jpg" alt="" />
+                <img src="images/sql.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="pro-con" id="pro-con">
+            <div class="pro-title">
+                <h1 class="pro-tit">Projects</h1>
+                <p class="pro-line"></p>
+            </div>
+            <section id="projects">
+                <div class="card">
+                    <img src="memories.jpg" alt="" />
+                    <h3 class="card-tit">PHP Memories</h3>
+                    <p class="line"></p>
+                    <p class="card-p">
+                        The App is called Memories and it is a simple social media app
+                        that allows users to post intersting events that are happend in
+                        their lives
+                    </p>
+                    <h4 class="tech-used">Techonologies Used</h4>
+                    <div class="technologies">
+                        <p>JavaScript</p>
+                        <p>Php</p>
+                        <p>Mysql</p>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/bhargav-jaldu/memories-app" target="_blank">CODE</a>
+                        <a href="https://php-memories.000webhostapp.com/" target="_blank">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="movie.jpg" alt="" />
+                    <h3 class="card-tit">MOVIES APP</h3>
+                    <p class="line"></p>
+                    <p class="card-p">
+                        A Simple Movie App, Where you can watch a trailer and search for a
+                        movie. You can view upcoming movies trailers and Top rated movie
+                        trailers
+                    </p>
+                    <h4 class="tech-used">Techonologies Used</h4>
+                    <div class="technologies">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JAVASCIRT</p>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/bhargav-jaldu/movie-app" target="_blank">CODE</a>
+                        <a href="https://bhargav-jaldu.github.io/movie-app/" target="_blank">VIEW</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact us -->
+        <!-- <div class="forms-container" id="contact">
+            <h1>Contact us!</h1>
+            <p class="line"></p>
+            <form action="contact.php" method="POST" class="form-container">
+                <?php
+            //   if(isset($_GET['error'])) {
+            //     echo "<h3>{$_GET['error']}</h3>";
+            //   }
+
+            //   if(isset($_GET['success'])) {
+            //     echo "<h3>Your email has Sent!</h3>";
+            //   }
+              ?>
+                <div class="form-control">
+                    <div class="email">
+                        <input type="text" name="username" autocomplete="off" required />
+                        <label>Username</label>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="email">
+                        <input type="text" name="email" autocomplete="off" required />
+                        <label>Email</label>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="email">
+                        <input type="text" name="subject" autocomplete="off" required />
+                        <label>Subject</label>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <textarea name="message" cols="50" rows="5" placeholder="Message..."></textarea>
+                </div>
+                <button type="submit" name="send">SEND</button>
+            </form>
+        </div> -->
+
+        <section id="social">
+            <h1>Social Media</h1>
+            <p class="line"></p>
+            <h3>You can find me on</h3>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/bhargav-jaldu-697488196/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/bhargav-jaldu" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://leetcode.com/Bhargav-Jaldu/" target="_blank"><img src="leetcode.jpg" alt=""></a>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
